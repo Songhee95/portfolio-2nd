@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar.jsx';
+import Intro from '../Intro/Intro.jsx';
+import "../../App.css"
+
 
 export default function Home() {
     return (
-        <div>
-            hello This is home jsx file
-        </div>
+        <>
+            <Intro />
+        </>
     )
 }

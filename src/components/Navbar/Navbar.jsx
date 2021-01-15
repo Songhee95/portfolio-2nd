@@ -21,7 +21,7 @@ function Navbar() {
               <Link to='/linkedIn' target="_blank" className="navbar-brand">
               <i className="fab fa-linkedin"></i>
               </Link>
-              <li className="navbar-brand">
+              <li className="navbar-brand" onClick={closeMobileMenu}>
                 SONGHEE
               </li>
             </ul>
