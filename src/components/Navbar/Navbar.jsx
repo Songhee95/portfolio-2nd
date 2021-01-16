@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-dark bg-dark">
           <div className="container-fluid">
             <ul className="nav">
               <Link to='/github' target="_blank" className="navbar-brand">
@@ -21,7 +21,7 @@ function Navbar() {
               <Link to='/linkedIn' target="_blank" className="navbar-brand">
               <i className="fab fa-linkedin"></i>
               </Link>
-              <li className="navbar-brand" onClick={closeMobileMenu}>
+              <li className="navbar-brand name" onClick={closeMobileMenu}>
                 SONGHEE
               </li>
             </ul>

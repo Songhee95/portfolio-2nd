@@ -1,6 +1,19 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 .fa-github,
 .fa-linkedin {
   font-size: 2rem;
+}
+.name {
+  cursor: pointer;
 }
 .fa-paper-plane,
 .fa-download {
