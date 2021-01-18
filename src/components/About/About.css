@@ -3,21 +3,46 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  padding: 20vh;
 }
-.about-me > p {
-  display: flex;
-  direction: column;
+.row {
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.about-me {
+  text-align: center;
+}
+.icons {
+  font-size: 4rem;
+}
+.about-me p:first-child {
+  font-size: 30px;
+}
+.about-me p:nth-child(2) {
+  line-height: 160%;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 .skill-strength {
-  display: flex;
-  direction: row;
+  text-align: center;
 }
-.skill-set > p {
-  display: flex;
-  direction: column;
-}
+.skill-set,
 .workplace-strength {
-  display: flex;
-  direction: column;
+  margin-bottom: 70px;
+}
+.icons i {
+  margin: 20px auto;
+}
+.skill-set > p,
+.workplace-strength > p {
+  font-size: 30px;
+}
+@media screen and (max-width: 960px) {
+  .about-container {
+    padding: 8vh;
+  }
+  .row {
+    margin: 0;
+    padding: 0;
+  }
 }
