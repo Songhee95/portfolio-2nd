@@ -1,14 +1,17 @@
 import React from 'react';
-import Intro from '../Intro/Intro.jsx';
-import About from '../About/About.jsx'
-import "../../App.css"
+import About from '../About/About';
+import Intro from '../Intro/Intro';
+import Navbar from '../Navbar/Navbar';
 
 
-export default function Home() {
+function Home() {
     return (
         <>
-            <Intro />
-            <About />
+            <Navbar/>
+            <Intro/>
+            <About/>
         </>
     )
 }
+
+export default Home

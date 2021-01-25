@@ -1,10 +1,14 @@
 import React from 'react';
 import './About.css'
+import {Link} from 'react-scroll'
 
 function About() {
     return (
         <>
         <div className='about-container'>
+            <div className='scroll-up'>
+                <Link to="home" spy={true} smooth={true} duration={50} id='about'><i className="fas fa-chevron-up"></i></Link>
+            </div>
             <div className='about-me'>
                 <p><strong>About Me</strong></p>
                 <p>
@@ -54,7 +58,9 @@ function About() {
                     </div>
                 </div>
             </div>
-
+            <div className='scroll-down'>
+                <Link to="home" spy={true} smooth={true} duration={50} id='about'><i className="fas fa-chevron-down"></i></Link>
+            </div>
         </div>
         </>
     )

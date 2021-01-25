@@ -1,15 +1,13 @@
 import "./App.css";
-import Home from "./components/pages/Home";
-import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <Home />
         <Switch>
-          <Route path="/" exact component={Home} />
           <Route
             path="/github"
             exact
@@ -27,8 +25,6 @@ function App() {
               return null;
             }}
           />
-          <Route path="/" exact component={Home} />
-          <Route path="/" exact component={Home} />
         </Switch>
       </Router>
     </>

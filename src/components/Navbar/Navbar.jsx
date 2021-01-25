@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import ScrollNav from './ScrollNav';
+import "./Navbar.css";
+
 
 function Navbar() {
   const [clicked, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!clicked);
   const closeMobileMenu = () =>setClick(false);
 
   return (
     <>
-      <div>
+      <div id="home">
         <nav className="navbar navbar-dark bg-dark">
           <div className="container-fluid">
             <ul className="nav">
@@ -31,32 +32,9 @@ function Navbar() {
             </div>
             {/* List of Nav items  */}
             <ul className={clicked ? "nav-menu active" : "nav-menu"}>
-              <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  HOME
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  ABOUT
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  PORTFOLIO
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/files/resume_Songhee.pdf" target="_blank" download className="nav-links" onClick={closeMobileMenu}>
-                  <i className="fas fa-download"></i> RESUME
-                </Link>
-              </li>
-              <li className="nav-item">
-                <a href="mailto:thdgml5537@gmail.com" className="nav-links" onClick={closeMobileMenu}>
-                  <i className="fas fa-paper-plane"></i> HIRE ME
-                </a>
-              </li>
+              <ScrollNav closeMobileMenu={closeMobileMenu}/>
             </ul>
+
           </div>
         </nav>
       </div>
