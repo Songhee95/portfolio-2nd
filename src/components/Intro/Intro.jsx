@@ -1,17 +1,22 @@
 import React from 'react';
 import './Intro.css';
 import '../../App.css';
+import ScrollDown from '../ScrollToComponent/ScrollDown'
 
 function Intro() {
     return (
         <div className='intro-container'>
-            <video src='/videos/video1.mp4' autoPlay loop muted />
-            <img src='./images/songhee.png' alt='songhee'></img>
-            <p>&lt;Hello my="name-is"&gt;</p>
-            <h1>SONGHEE YIM</h1>
-            <h2>FULL STACK DEVELOPER</h2>
-            <p>&lt;I like="Debugging"&gt;&lt;/I&gt;</p>
-            <p>&lt;/Hello&gt;</p>
+            <img className="intro-pic fadeOut" src='./images/4.jpg' alt='songhee'></img>
+            <div className="intro-context fadeIn">
+                <p>&lt;Hello my="name-is"&gt;</p>
+                <h1>SONGHEE YIM</h1>
+                <h2>FULL STACK DEVELOPER</h2>
+                <p>&lt;I like="Debugging"&gt;&lt;/I&gt;</p>
+                <p>&lt;/Hello&gt;</p>
+            </div>
+            <div className='intro-scrolldown'>
+                <ScrollDown to="aboutme" id='about'/>
+            </div>
         </div>
     )
 }

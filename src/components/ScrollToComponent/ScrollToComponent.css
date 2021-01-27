@@ -1,0 +1,10 @@
+.scroll-up,
+.scroll-down {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.scroll-up:hover {
+  color: rgba(122, 120, 120, 0.671);
+}
