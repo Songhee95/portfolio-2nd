@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
 import './Projects.css';
 import projectLists from './projectLists';
+import ToTop from '../ScrollToComponent/ToTop'
 
 function Projects() {
     const [list, setList] = useState(projectLists);
     
     const displayList = list.map(list =>(
-            <div className="card border-success col-sm-3" key={list.key}>
-            <div className="card-header bg-dark border-success ">{list.title}</div>
-                <img src={process.env.PUBLIC_URL + list.image}  alt={list.title} />
+            <div className="card border-light" key={list.key}>
+            <div className="card-header bg-dark border-light ">{list.title}</div>
+                <img className="project-image" src={process.env.PUBLIC_URL + list.image}  alt={list.title} />
                     <div className="card-text bg-dark">{list.description}</div>
                     <div className='icon bg-dark'>
 
@@ -17,7 +18,7 @@ function Projects() {
                         ))}
 
                     </div>
-                <div className="links card-footer bg-dark border-success">
+                <div className="links card-footer bg-dark border-light">
                     <div><a href={list.github} className="card-link">Github</a></div>
                     <div><a href={list.deploy} className="card-link">WepPage</a></div>
                 </div>
@@ -25,10 +26,13 @@ function Projects() {
     ))
 
     return (
-        <>
-        <video src={process.env.PUBLIC_URL + '/videos/1.mp4'} autoPlay loop muted />
-        <div className='row'>{displayList}</div>
-        </>
+        <div className="project-container">
+        <video src={process.env.PUBLIC_URL + "/videos/1.mp4"} autoPlay loop muted />
+        <div className='project-row'>{displayList}</div>
+        <div className='project-scrollup'>
+                <ToTop to="home" id='project'/>
+        </div>
+        </div>
     )
 }
 

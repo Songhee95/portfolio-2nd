@@ -1,10 +1,14 @@
 .scroll-up,
 .scroll-down {
   text-align: center;
-  padding-bottom: 30px;
-  font-size: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
   cursor: pointer;
 }
 .scroll-up:hover {
   color: rgba(122, 120, 120, 0.671);
+}
+.totop-text {
+  font-weight: 500;
+  font-size: 15px;
 }

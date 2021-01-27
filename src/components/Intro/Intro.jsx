@@ -6,7 +6,7 @@ import ScrollDown from '../ScrollToComponent/ScrollDown'
 function Intro() {
     return (
         <div className='intro-container'>
-            <img className="intro-pic fadeOut" src='./images/4.jpg' alt='songhee'></img>
+            <img className="intro-pic fadeOut" src='./images/songhee.jpg' alt='songhee'></img>
             <div className="intro-context fadeIn">
                 <p>&lt;Hello my="name-is"&gt;</p>
                 <h1>SONGHEE YIM</h1>
