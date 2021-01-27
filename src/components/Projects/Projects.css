@@ -1,5 +1,5 @@
 .project-container {
-  background-color: rgba(224, 189, 164, 0.315);
+  background-color: rgba(247, 242, 234, 0.233);
 }
 .project-row {
   width: 100%;
@@ -19,7 +19,7 @@ video {
 .project-image {
   height: 300px;
   padding: 10px;
-  background-color: rgb(207, 205, 205);
+  background-color: rgb(247, 242, 234);
   margin: 0;
 }
 .card {

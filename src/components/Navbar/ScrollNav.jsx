@@ -20,7 +20,7 @@ function ScrollNav({closeMobileMenu}) {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="/files/resume_Songhee.pdf" target="_blank" download className="nav-links" onClick={closeMobileMenu}>
+                <a href="/files/resume_Songhee.docx" target="_blank" download className="nav-links" onClick={closeMobileMenu}>
                   <i className="fas fa-download"></i> RESUME
                 </a>
               </li>

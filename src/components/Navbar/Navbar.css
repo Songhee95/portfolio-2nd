@@ -28,6 +28,7 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
+  margin-bottom: 0;
 }
 .nav-links {
   color: #fff;
