@@ -5,7 +5,7 @@ import ScrollDown from  "../ScrollToComponent/ScrollDown";
 function About() {
     return (
         <>
-        <div className='about-container' id="aboutme">
+        <div className='about-container' id='about'>
             <div className='about-me'>
             <h1>About me</h1>
                 <p>

@@ -26,11 +26,11 @@ function Projects() {
     ))
 
     return (
-        <div className="project-container">
+        <div className="project-container" id='project'>
         <video src={process.env.PUBLIC_URL + "/videos/1.mp4"} autoPlay loop muted />
         <div className='project-row'>{displayList}</div>
         <div className='project-scrollup'>
-                <ToTop to="home" id='project'/>
+                <ToTop to="home"/>
         </div>
         </div>
     )

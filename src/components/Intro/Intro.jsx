@@ -15,7 +15,7 @@ function Intro() {
                 <p>&lt;/Hello&gt;</p>
             </div>
             <div className='intro-scrolldown'>
-                <ScrollDown to="aboutme" id='about'/>
+                <ScrollDown to="about"/>
             </div>
         </div>
     )
