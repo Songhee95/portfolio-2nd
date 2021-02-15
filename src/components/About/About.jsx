@@ -5,7 +5,7 @@ import ScrollDown from  "../ScrollToComponent/ScrollDown";
 function About() {
     return (
         <>
-        <div className='about-container' id='about'>
+        <div className='about-container container' id='about'>
             <div className='about-me'>
             <h1>About me</h1>
                 <p>
@@ -32,6 +32,7 @@ function About() {
                     <div className="icons row">
                         <i className="devicon-css3-plain-wordmark about-devicon col"></i>
                         <i className="devicon-bootstrap-plain-wordmark about-devicon col"></i>
+                        <i class="devicon-materialui-plain about-devicon col"></i>                
                         <i className="devicon-jquery-plain-wordmark about-devicon col"></i>
                         <i className="devicon-javascript-plain about-devicon col"></i>
                         <i className="devicon-html5-plain-wordmark about-devicon col"></i>
@@ -41,7 +42,7 @@ function About() {
                         <i className="devicon-mysql-plain-wordmark about-devicon col"></i>
                         <i className="devicon-mongodb-plain-wordmark about-devicon col"></i>
                         <i className="devicon-heroku-original-wordmark about-devicon col"></i>
-                    </div>
+                        <i className="devicon-firebase-plain-wordmark about-devicon col"></i>                        </div>
                 </div>
                 
                 <div className='workplace-strength col-sm-12 col-md-12 col-lg-6'>

@@ -4,9 +4,13 @@
   text-align: center;
   color: rgb(104, 64, 38);
 }
+.intro-inner-container {
+  max-width: 1600px;
+}
 .intro-pic {
   padding: 0;
   width: 100%;
+  max-width: 1000px;
   top: 0;
   left: 0;
   -webkit-animation-duration: 5s;
@@ -33,10 +37,8 @@
 .intro-context > h1 ~ h2 {
   font-size: 30px;
 }
-.intro-scrolldown {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+.intro-scroll-down {
+  margin: 30px 0;
 }
 @keyframes fadeOut {
   0% {
@@ -75,7 +77,7 @@
   }
 }
 @media screen and (min-width: 960px) {
-  .intro-container {
+  .intro-inner-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

@@ -2,32 +2,42 @@ import React, {useState} from 'react';
 import './Projects.css';
 import projectLists from './projectLists';
 import ToTop from '../ScrollToComponent/ToTop'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 function Projects() {
     const [list, setList] = useState(projectLists);
     
     const displayList = list.map(list =>(
-            <div className="card border-warning" key={list.key}>
-            <div className="card-header bg-dark border-warning ">{list.title}</div>
-                <img className="project-image" src={process.env.PUBLIC_URL + list.image}  alt={list.title} />
-                    <div className="card-text bg-dark">{list.description}</div>
-                    <div className='icon bg-dark'>
-
+            <div className="project__individual__container" key={list.key}>
+                <div className="project__individual__wrap">
+                <Carousel className='project-image' autoPlay interval='5000' transitionTime='1000' infiniteLoop={true} showThumbs={false}>
+                    <img className='slide' src={process.env.PUBLIC_URL + list.image1} alt={list.title} />
+                    <img className='slide' src={process.env.PUBLIC_URL + list.image2} alt={list.title} />
+                    <img className='slide' src={process.env.PUBLIC_URL + list.image3} alt={list.title} />
+                </Carousel>
+                <div className="project__description__wrap">
+                    <h3 className="project__title">{list.title}</h3>
+                    <p className="project__description">{list.description}</p>
+                    <div className="project__description__icon__wrap">
                         {list.icon.map(icon=>(
-                            <i className={icon}></i>
+                            <div className="project__icon"><i className={icon}></i></div>
                         ))}
-
                     </div>
-                <div className="links card-footer bg-dark border-warning">
-                    <div><a href={list.github} className="card-link">Github</a></div>
-                    <div><a href={list.deploy} className="card-link">WepPage</a></div>
+                    <div className="links">
+                        <div><a href={list.github} className="card-link">Github</a></div>
+                        <div><a href={list.deploy} className="card-link">WepPage</a></div>
+                    </div>
                 </div>
+                </div>
+
             </div>
     ))
 
     return (
-        <div className="project-container" id='project'>
-        <video src={process.env.PUBLIC_URL + "/videos/1.mp4"} autoPlay loop muted />
+        <div className="project-container container" id='project'>
+            <h1 className='project-title'>Projects</h1>
+        {/* <video src={process.env.PUBLIC_URL + "/videos/1.mp4"} autoPlay loop muted /> */}
         <div className='project-row'>{displayList}</div>
         <div className='project-scrollup'>
                 <ToTop to="home"/>
