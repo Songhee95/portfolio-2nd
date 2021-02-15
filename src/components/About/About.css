@@ -8,7 +8,7 @@
 }
 .about-me > p {
   font-family: "Nanum Myeongjo", serif;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 40px;
 }
 .about-me > h1,
@@ -39,7 +39,8 @@
     padding-right: 250px;
     padding-left: 250px;
   }
-  .about-me {
+  .about-me > p {
+    font-size: 25px;
     margin-top: 30px;
   }
 }

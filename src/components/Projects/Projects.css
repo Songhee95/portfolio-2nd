@@ -33,7 +33,7 @@
   font-size: 30px;
 }
 .project__description__wrap > p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
 }
 .project__description__icon__wrap {
@@ -44,7 +44,7 @@
   float: left;
 }
 .devicon {
-  font-size: 2.3rem;
+  font-size: 3rem;
   margin: 7px;
 }
 a {
@@ -89,5 +89,8 @@ a:hover {
   }
   .project__description__wrap {
     padding: 50px;
+  }
+  .project__description__wrap > p {
+    font-size: 25px;
   }
 }
