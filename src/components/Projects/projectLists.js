@@ -1,11 +1,11 @@
 const projectLists = [
   {
-    title: "Resume Builder",
+    title: "DVM Buddy",
     image1: "/images/resume_1.PNG",
     image2: "/images/resume_2.PNG",
     image3: "/images/resume_3.PNG",
     description:
-      "Resume builder for Developers, Prevent scrambled issue of resume template. Create your account, create resume and manage your resume.",
+      "A 3rd party software that provides value added services for veterinarians so that they do not lose out on potential profits. This application provides both pet services and vet appointments.",
     github: "https://github.com/Songhee95/resume-builder",
     deploy: "https://damp-tundra-89141.herokuapp.com/",
     icon: [
@@ -26,7 +26,7 @@ const projectLists = [
     image2: "/images/resume_2.PNG",
     image3: "/images/resume_3.PNG",
     description:
-      "Resume builder for Developers, Prevent scrambled issue of resume template. Create your account, create resume and manage your resume.",
+      "Resume builder for Developers, Prevent scrambled issue of resume template. This application allows user to create resume template based on their information and manage all the resume under their account.",
     github: "https://github.com/Songhee95/resume-builder",
     deploy: "https://damp-tundra-89141.herokuapp.com/",
     icon: [
@@ -46,7 +46,7 @@ const projectLists = [
     image2: "/images/amazon_clone_2.PNG",
     image3: "/images/amazon_clone_3.PNG",
     description:
-      "Amazon Clone with React. Simple Login and Sign out Page with firebase and dynamic page with React.",
+      "Amazon Clone with React. Login and Sign out with firebase and dynamic page with React.",
     github: "https://github.com/Songhee95/Amazon-Clone-Project",
     deploy: "https://clone-eec21.firebaseapp.com/",
     icon: [
