@@ -1,13 +1,19 @@
 const projectLists = [
   {
-    title: "DVM Buddy",
-    image1: "/images/resume_1.PNG",
-    image2: "/images/resume_2.PNG",
-    image3: "/images/resume_3.PNG",
+    title: "Veterinary Clinic Website",
+    image: [
+      "/images/dvm_1.PNG",
+      "/images/dvm_2.PNG",
+      "/images/dvm_3.PNG",
+      "/images/dvm_4.PNG",
+      "/images/dvm_5.PNG",
+      "/images/dvm_6.PNG",
+      "/images/dvm_7.PNG",
+    ],
     description:
       "A 3rd party software that provides value added services for veterinarians so that they do not lose out on potential profits. This application provides both pet services and vet appointments.",
-    github: "https://github.com/Songhee95/resume-builder",
-    deploy: "https://damp-tundra-89141.herokuapp.com/",
+    github: "https://github.com/Songhee95/dvm-buddy",
+    deploy: "hhttps://dvm-buddy.herokuapp.com/",
     icon: [
       "devicon-css3-plain-wordmark devicon",
       "devicon-html5-plain-wordmark devicon",
@@ -22,13 +28,16 @@ const projectLists = [
   },
   {
     title: "Resume Builder",
-    image1: "/images/resume_1.PNG",
-    image2: "/images/resume_2.PNG",
-    image3: "/images/resume_3.PNG",
+    image: [
+      "/images/resume_1.PNG",
+      "/images/resume_2.PNG",
+      "/images/resume_3.PNG",
+      "/images/resume_4.PNG",
+    ],
     description:
       "Resume builder for Developers, Prevent scrambled issue of resume template. This application allows user to create resume template based on their information and manage all the resume under their account.",
-    github: "https://github.com/Songhee95/resume-builder",
-    deploy: "https://damp-tundra-89141.herokuapp.com/",
+    github: "https://songs-resume-builder.herokuapp.com",
+    deploy: "https://github.com/Songhee95/resume-builder",
     icon: [
       "devicon-css3-plain-wordmark devicon",
       "devicon-express-original devicon",
@@ -42,9 +51,12 @@ const projectLists = [
   },
   {
     title: "Amazon Clone",
-    image1: "/images/amazon_clone_1.PNG",
-    image2: "/images/amazon_clone_2.PNG",
-    image3: "/images/amazon_clone_3.PNG",
+    image: [
+      "/images/amazon_1.PNG",
+      "/images/amazon_2.PNG",
+      "/images/amazon_3.PNG",
+      "/images/amazon_4.PNG",
+    ],
     description:
       "Amazon Clone with React. Login and Sign out with firebase and dynamic page with React.",
     github: "https://github.com/Songhee95/Amazon-Clone-Project",

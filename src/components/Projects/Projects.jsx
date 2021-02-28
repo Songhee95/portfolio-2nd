@@ -12,9 +12,9 @@ function Projects() {
             <div className="project__individual__container" key={list.key}>
                 <div className="project__individual__wrap">
                 <Carousel className='project-image' autoPlay interval='5000' transitionTime='1000' infiniteLoop={true} showThumbs={false}>
-                    <img className='slide' src={process.env.PUBLIC_URL + list.image1} alt={list.title} />
-                    <img className='slide' src={process.env.PUBLIC_URL + list.image2} alt={list.title} />
-                    <img className='slide' src={process.env.PUBLIC_URL + list.image3} alt={list.title} />
+                    {list.image.map(img =>(
+                        <img className='slide' src={process.env.PUBLIC_URL + img} alt={list.title} />
+                    ))}
                 </Carousel>
                 <div className="project__description__wrap">
                     <h3 className="project__title">{list.title}</h3>
