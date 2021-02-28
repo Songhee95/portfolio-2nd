@@ -21,7 +21,7 @@ function Projects() {
                     <p className="project__description">{list.description}</p>
                     <div className="project__description__icon__wrap">
                         {list.icon.map(icon=>(
-                            <div className="project__icon"><i className={icon}></i></div>
+                            <i className={icon}></i>
                         ))}
                     </div>
                     <div className="links">
