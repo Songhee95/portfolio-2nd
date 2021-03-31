@@ -14,7 +14,7 @@ function About() {
                     earned a certificate in Full Stack Development from Georgia
                     institute of Technology. I have honed my skills in HTML5, CSS,
                     Bootstrap, jQuery, JavaScript, React.js, and responsive Web design
-                    to develop clear and impactive client-side applications and MySQL,
+                    to develop clear and impactive client-side applications and Python, Django, MySQL,
                     MoingoDB, Node.js and Express.js to develop effective server-side
                     applications. Known as an outstanding problem solver with analyzing
                     skills and able to work with a team while solving problems in
@@ -39,6 +39,8 @@ function About() {
                         <i className="devicon-react-plain-wordmark about-devicon col"></i>
                         <i className="devicon-nodejs-plain-wordmark about-devicon col"></i>
                         <i className="devicon-express-original-wordmark about-devicon col"></i>
+                        <i className="devicon-python-plain-wordmark about-devicon col"></i>
+                        <i className="devicon-django-plain-wordmark about-devicon col"></i>
                         <i className="devicon-mysql-plain-wordmark about-devicon col"></i>
                         <i className="devicon-mongodb-plain-wordmark about-devicon col"></i>
                         <i className="devicon-heroku-original-wordmark about-devicon col"></i>

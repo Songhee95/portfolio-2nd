@@ -1,5 +1,29 @@
 const projectLists = [
   {
+    title: "Today And Monthly Dos App",
+    image: [
+      "/images/todo_1.PNG",
+      "/images/todo_2.PNG",
+      "/images/todo_3.PNG",
+      "/images/todo_4.PNG",
+      "/images/todo_5.PNG",
+    ],
+    description:
+      "Work & Todo list organize and manage web application displaying Weekly / Daily todo lists, monthly goal and work history.",
+    github: "https://github.com/Songhee95/django_todo_list",
+    deploy: "https://sh-django-todo-app.herokuapp.com/",
+    icon: [
+      "devicon-css3-plain-wordmark devicon",
+      "devicon-html5-plain-wordmark devicon",
+      "devicon-javascript-plain devicon",
+      "devicon-jquery-plain-wordmark devicon",
+      "devicon-django-plain-wordmark devicon",
+      "devicon-python-plain-wordmark devicon",
+      "devicon-heroku-plain-wordmark devicon",
+    ],
+    key: 1,
+  },
+  {
     title: "Veterinary Clinic Website",
     image: [
       "/images/dvm_1.PNG",
@@ -24,7 +48,7 @@ const projectLists = [
       "devicon-react-plain-wordmark devicon",
       "devicon-mongodb-plain-wordmark devicon",
     ],
-    key: 1,
+    key: 2,
   },
   {
     title: "Resume Builder",
@@ -47,7 +71,7 @@ const projectLists = [
       "devicon-mysql-plain-wordmark devicon",
       "devicon-handlebars-plain-wordmark devicon",
     ],
-    key: 2,
+    key: 3,
   },
   {
     title: "Amazon Clone",
@@ -68,7 +92,7 @@ const projectLists = [
       "devicon-firebase-plain-wordmark devicon",
       "devicon-materialui-plain devicon",
     ],
-    key: 3,
+    key: 4,
   },
 ];
 
