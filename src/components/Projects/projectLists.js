@@ -7,6 +7,7 @@ const projectLists = [
       "/images/todo_3.PNG",
       "/images/todo_4.PNG",
       "/images/todo_5.PNG",
+      "/images/todo_5.PNG",
     ],
     description:
       "PWA project that user can easily download and use web application as an app. Work & Todo list organize and manage web application displaying Weekly / Daily todo lists, monthly goal and work history.",
