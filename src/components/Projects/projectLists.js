@@ -9,7 +9,7 @@ const projectLists = [
       "/images/todo_5.PNG",
     ],
     description:
-      "Work & Todo list organize and manage web application displaying Weekly / Daily todo lists, monthly goal and work history.",
+      "PWA project that user can easily download and use web application as an app. Work & Todo list organize and manage web application displaying Weekly / Daily todo lists, monthly goal and work history.",
     github: "https://github.com/Songhee95/django_todo_list",
     deploy: "https://sh-django-todo-app.herokuapp.com/",
     icon: [
