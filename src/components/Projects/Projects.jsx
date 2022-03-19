@@ -25,8 +25,10 @@ function Projects() {
                         ))}
                     </div>
                     <div className="links">
-                        <div><a href={list.github} className="card-link">Github</a></div>
-                        <div><a href={list.deploy} className="card-link">WepPage</a></div>
+                        {list.demo && <div><a href={list.demo} className="card-link">Demo</a></div>}
+                        {list.github && <div><a href={list.github} className="card-link">Github</a></div>}
+                        {list.deploy && <div><a href={list.deploy} className="card-link">WepPage</a></div>}
+                        {list.appStore && <div><a href={list.appStore} className="card-link">AppStore</a></div>}
                     </div>
                 </div>
                 </div>

@@ -41,7 +41,7 @@
   width: 100%;
   display: flex;
   padding: 5px;
-  justify-content: space-around;
+  justify-content: center;
 }
 .devicon {
   font-size: 3rem;

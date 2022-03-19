@@ -1,5 +1,84 @@
 const projectLists = [
   {
+    title: "IRD (Customer display)",
+    image: [
+      "/images/resume_1.PNG",
+      "/images/resume_2.PNG",
+      "/images/resume_3.PNG",
+      "/images/resume_4.PNG",
+    ],
+    description:
+      "IRD displays real time transaction status for customer and allows customer to use their rewards or store balance. TCP Socket is used to communicate with POS device.",
+    demo: "https://drive.google.com/file/d/10IxVvQ8CP4FhiQ2XMZ826xcVDXGwQiPc/view?usp=sharing",
+    appStore: "https://apps.apple.com/us/app/purejoin-ird2/id1593228273",
+    icon: [
+      "devicon-swift-plain-wordmark devicon",
+      "devicon-objectivec-plain devicon",
+      "devicon-php-plain devicon",
+      "devicon-mysql-plain-wordmark devicon",
+    ],
+    key: 1,
+  },
+  {
+    title: "Price Check System",
+    image: [
+      "/images/resume_1.PNG",
+      "/images/resume_2.PNG",
+      "/images/resume_3.PNG",
+      "/images/resume_4.PNG",
+    ],
+    description:
+      "'Price check System' gives a price information for customer and the store can promote a new product or service at the same time. Employees Time clock feature included for their convenience.",
+    demo: "https://drive.google.com/file/d/1ODK-UYdUD3Yz1DZDobWHXe0507A20r2X/view?usp=sharing",
+    appStore: "https://apps.apple.com/us/app/purejoin-pricecheck/id1613394232",
+    icon: [
+      "devicon-swift-plain-wordmark devicon",
+      "devicon-php-plain devicon",
+      "devicon-mysql-plain-wordmark devicon",
+    ],
+    key: 2,
+  },
+  {
+    title: "POS System",
+    image: [
+      "/images/resume_1.PNG",
+      "/images/resume_2.PNG",
+      "/images/resume_3.PNG",
+      "/images/resume_4.PNG",
+    ],
+    description:
+      "IRD displays real time transaction status for customer and allows customer to use their rewards or store balance. TCP Socket is used to communicate with POS device.",
+    demo: "https://drive.google.com/file/d/1Rq3ApSkb44bAx2428X9P8r9Eal-UyLtE/view?usp=sharing",
+    appStore: "https://apps.apple.com/us/app/id1523556088",
+    icon: [
+      "devicon-swift-plain-wordmark devicon",
+      "devicon-objectivec-plain devicon",
+      "devicon-php-plain devicon",
+      "devicon-mysql-plain-wordmark devicon",
+    ],
+    key: 3,
+  },
+  {
+    title: "Inventory App",
+    image: [
+      "/images/resume_1.PNG",
+      "/images/resume_2.PNG",
+      "/images/resume_3.PNG",
+      "/images/resume_4.PNG",
+    ],
+    description:
+      "Inventory application allows user to manage their products easily. This app offers barcode generating and barcode label printing features with 2 different designs.",
+    demo: "https://drive.google.com/file/d/1VgCIo0U9HcO1MEhURqZveAEiTqQ5KcYa/view?usp=sharing",
+    appStore: "https://apps.apple.com/us/app/pj-inventory/id1553832583",
+    icon: [
+      "devicon-swift-plain-wordmark devicon",
+      "devicon-objectivec-plain devicon",
+      "devicon-php-plain devicon",
+      "devicon-mysql-plain-wordmark devicon",
+    ],
+    key: 4,
+  },
+  {
     title: "Today And Monthly Dos App",
     image: [
       "/images/todo_1.PNG",
@@ -22,7 +101,7 @@ const projectLists = [
       "devicon-python-plain-wordmark devicon",
       "devicon-heroku-plain-wordmark devicon",
     ],
-    key: 1,
+    key: 5,
   },
   {
     title: "Veterinary Clinic Website",
@@ -49,51 +128,7 @@ const projectLists = [
       "devicon-react-plain-wordmark devicon",
       "devicon-mongodb-plain-wordmark devicon",
     ],
-    key: 2,
-  },
-  {
-    title: "Resume Builder",
-    image: [
-      "/images/resume_1.PNG",
-      "/images/resume_2.PNG",
-      "/images/resume_3.PNG",
-      "/images/resume_4.PNG",
-    ],
-    description:
-      "Resume builder for Developers, Prevent scrambled issue of resume template. This application allows user to create resume template based on their information and manage all the resume under their account.",
-    github: "https://songs-resume-builder.herokuapp.com",
-    deploy: "https://github.com/Songhee95/resume-builder",
-    icon: [
-      "devicon-css3-plain-wordmark devicon",
-      "devicon-express-original devicon",
-      "devicon-nodejs-plain-wordmark devicon",
-      "devicon-heroku-plain-wordmark devicon",
-      "devicon-javascript-plain devicon",
-      "devicon-mysql-plain-wordmark devicon",
-      "devicon-handlebars-plain-wordmark devicon",
-    ],
-    key: 3,
-  },
-  {
-    title: "Amazon Clone",
-    image: [
-      "/images/amazon_1.PNG",
-      "/images/amazon_2.PNG",
-      "/images/amazon_3.PNG",
-      "/images/amazon_4.PNG",
-    ],
-    description:
-      "Amazon Clone with React. Login and Sign out with firebase and dynamic page with React.",
-    github: "https://github.com/Songhee95/Amazon-Clone-Project",
-    deploy: "https://clone-eec21.firebaseapp.com/",
-    icon: [
-      "devicon-html5-plain-wordmark devicon",
-      "devicon-css3-plain-wordmark devicon",
-      "devicon-javascript-plain devicon",
-      "devicon-firebase-plain-wordmark devicon",
-      "devicon-materialui-plain devicon",
-    ],
-    key: 4,
+    key: 6,
   },
 ];
 
