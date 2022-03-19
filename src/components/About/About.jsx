@@ -9,20 +9,13 @@ function About() {
             <div className='about-me'>
             <h1>About me</h1>
                 <p>
-                    Full Stack Developer with Engineering background to think more
-                    logically and process more efficiently in creating code. Recently
-                    earned a certificate in Full Stack Development from Georgia
-                    institute of Technology. I have honed my skills in HTML5, CSS,
-                    Bootstrap, jQuery, JavaScript, React.js, and responsive Web design
-                    to develop clear and impactive client-side applications and Python, Django, MySQL,
-                    MoingoDB, Node.js and Express.js to develop effective server-side
-                    applications. Known as an outstanding problem solver with analyzing
-                    skills and able to work with a team while solving problems in
-                    high-stress environments. My motivation is to make great
-                    collaboration by giving respect and support to my teammates and this
-                    motivation leads our project and team to success. Looking to bring
-                    my passion and technical skills to the company to grow and become a
-                    valuable asset.
+                Full Stack Developer/ IOS Developer since 2021. 
+                Earned a certificate in Full Stack Development from Georgia
+                institute of Technology. Built Two IOS Application which are 'Interactive Reward Display (IRD) for POS System'
+                Start Master's of Science in Analytics at Georgia Tech in 2022. 
+                For less than 2 years, I've achieved many things and there is going to be more achievment in another 2 year. 
+                Looking to bring my passion and technical skills to the company to grow and become a valuable asset.
+                Check my skills and projects below!
                 </p>
             </div>
 
