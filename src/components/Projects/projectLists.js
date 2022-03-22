@@ -2,11 +2,11 @@ const projectLists = [
   {
     title: "IRD (Customer display)",
     image: [
-      "/images/ird_1.PNG",
-      "/images/ird_2.PNG",
-      "/images/ird_3.PNG",
-      "/images/ird_4.PNG",
-      "/images/ird_5.PNG",
+      "/images/ird_1.png",
+      "/images/ird_2.png",
+      "/images/ird_3.png",
+      "/images/ird_4.png",
+      "/images/ird_5.png",
     ],
     description:
       "IRD displays real time transaction status for customer and allows customer to use their rewards or store balance. TCP Socket is used to communicate with POS device.",
