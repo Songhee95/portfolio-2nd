@@ -10,7 +10,7 @@ function Intro() {
             <div className="intro-inner-container container">
                 <img className="intro-pic fadeOut" src={image} alt='songhee'></img>
                 <div className="intro-context fadeIn">
-                    <p>&lt;Hello my="name-is"&gt;</p>
+                    <p>&lt;Hello my="name_is"&gt;</p>
                     <h1>SONGHEE YIM</h1>
                     <h2>FULL STACK DEVELOPER</h2>
                     <p>&lt;I like="Debugging"&gt;&lt;/I&gt;</p>

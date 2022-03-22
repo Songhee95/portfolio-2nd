@@ -2,10 +2,11 @@ const projectLists = [
   {
     title: "IRD (Customer display)",
     image: [
-      "/images/resume_1.PNG",
-      "/images/resume_2.PNG",
-      "/images/resume_3.PNG",
-      "/images/resume_4.PNG",
+      "/images/ird_1.PNG",
+      "/images/ird_2.PNG",
+      "/images/ird_3.PNG",
+      "/images/ird_4.PNG",
+      "/images/ird_5.PNG",
     ],
     description:
       "IRD displays real time transaction status for customer and allows customer to use their rewards or store balance. TCP Socket is used to communicate with POS device.",
@@ -22,10 +23,11 @@ const projectLists = [
   {
     title: "Price Check System",
     image: [
-      "/images/resume_1.PNG",
-      "/images/resume_2.PNG",
-      "/images/resume_3.PNG",
-      "/images/resume_4.PNG",
+      "/images/pc_1.PNG",
+      "/images/pc_2.PNG",
+      "/images/pc_3.PNG",
+      "/images/pc_4.PNG",
+      "/images/pc_5.PNG",
     ],
     description:
       "'Price check System' gives a price information for customer and the store can promote a new product or service at the same time. Employees Time clock feature included for their convenience.",
@@ -41,10 +43,11 @@ const projectLists = [
   {
     title: "POS System",
     image: [
-      "/images/resume_1.PNG",
-      "/images/resume_2.PNG",
-      "/images/resume_3.PNG",
-      "/images/resume_4.PNG",
+      "/images/pos_1.PNG",
+      "/images/pos_2.PNG",
+      "/images/pos_3.PNG",
+      "/images/pos_4.PNG",
+      "/images/pos_5.PNG",
     ],
     description:
       "IRD displays real time transaction status for customer and allows customer to use their rewards or store balance. TCP Socket is used to communicate with POS device.",
@@ -61,10 +64,11 @@ const projectLists = [
   {
     title: "Inventory App",
     image: [
-      "/images/resume_1.PNG",
-      "/images/resume_2.PNG",
-      "/images/resume_3.PNG",
-      "/images/resume_4.PNG",
+      "/images/inv_1.PNG",
+      "/images/inv_2.PNG",
+      "/images/inv_3.PNG",
+      "/images/inv_4.PNG",
+      "/images/inv_5.PNG",
     ],
     description:
       "Inventory application allows user to manage their products easily. This app offers barcode generating and barcode label printing features with 2 different designs.",
