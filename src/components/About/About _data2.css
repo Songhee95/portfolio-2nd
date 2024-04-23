@@ -1,0 +1,46 @@
+.about-container {
+  line-height: 170%;
+  clear: both;
+  background-color: rgb(247, 242, 234);
+  padding: 30px 40px;
+  text-align: center;
+  max-width: 2000px;
+}
+.about-me > p {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 20px;
+  line-height: 40px;
+}
+.about-me > h1,
+.skill-set > h1,
+.workplace-strength > h1 {
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.about-devicon {
+  color: black;
+  font-size: 4rem;
+  margin: 10px 4px;
+}
+.skill-set,
+.workplace-strength {
+  padding: 40px 0;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-scrolldown {
+  padding: 30px 0;
+  border-bottom: 0.5px solid grey;
+}
+@media screen and (min-width: 960px) {
+  .about-container {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+  .about-me > p {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+}

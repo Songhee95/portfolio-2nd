@@ -1,0 +1,35 @@
+.portfolio__row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-gap: 10px; /* Balanced space between containers */
+  justify-content: center; /* Center horizontally */
+}
+
+.project__individual__container {
+  /* Your individual container styles */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.image-container {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 200px; /* Limit the maximum height of the image */
+  overflow: hidden; /* Hide any overflow if the image is larger than the container */
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.description-box {
+  text-align: center;
+}
+
+.project-container {
+  padding: 70px 20px;
+}
