@@ -17,7 +17,7 @@ const projectLists = [
     title: "Fraud Detection (eCom)",
     image: "/images/images_data/data_3.png",
     description: "",
-    page: "/files/analysis_html/eCom_fraud_detection.html",
+    page: "/files/analysis_html/eCom_fraud_detection.pdf",
     key: 3,
   },
 ];
