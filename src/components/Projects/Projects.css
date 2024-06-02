@@ -1,0 +1,47 @@
+.project__individual__wrap {
+  border: 8px solid;
+  margin: 5px;
+  padding: 2px;
+  max-width: 100%;
+}
+
+.portfolio__row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  grid-gap: 10px; /* Balanced space between containers */
+  justify-content: center; /* Center horizontally */
+}
+
+.project__individual__container {
+  /* Your individual container styles */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project__description__wrap {
+  padding: 5px 40px;
+}
+
+.project__description__icon__wrap {
+  font-size: 3rem;
+}
+
+.devicon {
+  margin: 0 5px;
+}
+
+.project-image {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 200px; /* Limit the maximum height of the image */
+  overflow: hidden;
+}
+
+@media screen and (min-width: 960px) {
+  .portfolio__row {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}

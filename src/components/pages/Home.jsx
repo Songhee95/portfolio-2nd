@@ -17,6 +17,7 @@ function Home() {
       {/* <Projects /> */}
       <About2 />
       <Projects2 />
+      <Projects />
       <Footer />
     </div>
   );

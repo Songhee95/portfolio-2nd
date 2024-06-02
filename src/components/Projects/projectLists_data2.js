@@ -13,6 +13,13 @@ const projectLists = [
     page: "/files/analysis_html/team159report.pdf",
     key: 2,
   },
+  {
+    title: "Fraud Detection (eCom)",
+    image: "/images/images_data/data_3.png",
+    description: "",
+    page: "/files/analysis_html/eCom_fraud_detection.html",
+    key: 3,
+  },
 ];
 
 export default projectLists;
