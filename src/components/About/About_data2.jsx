@@ -9,20 +9,17 @@ function About() {
         <div className="about-me">
           <h1>About me</h1>
           <p>
-            Former app developer turned system analyst, I thrive on decoding the
-            intricacies of technology. From designing seamless user experiences
-            to optimizing system efficiencies, I've traversed the realms of
-            software with finesse and innovation. Now, poised at the
-            intersection of data and discovery, I'm venturing into the realm of
-            data science. With a passion for uncovering insights and a
-            relentless drive for impact, I'm ready to harness the power of data
-            to drive transformative outcomes and shape the future of innovation.
+            With a foundation as an iOS application developer and full stack web
+            developer, I bring a unique blend of technical expertise and
+            analytical abilities to the table. Transitioning into a data analyst
+            role while pursuing a master’s degree in computer science with a
+            focus on analytics has equipped me with the skills to transform
+            complex data into actionable insights. I am passionate about
+            leveraging my diverse background to drive innovative solutions that
+            enhance user experiences and optimize business outcomes. My journey
+            reflects a commitment to continuous learning and a desire to make a
+            meaningful impact in the data-driven landscape.
           </p>
-          <p>
-            Looking to bring my passion and technical skills to the company to
-            grow and become a valuable asset.
-          </p>
-          <p>Check my skills and projects below!</p>
         </div>
 
         <div className="about-scrolldown">

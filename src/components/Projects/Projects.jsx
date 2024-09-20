@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Projects.css";
+import "./Projects_data2.css";
 import projectLists from "./projectLists";
 import ToTop from "../ScrollToComponent/ToTop";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
